@@ -79,6 +79,7 @@ function animate() {
     if (keys.a.pressed && lastKey === 'a') {
         player.velocity.x = -1
     } 
+    
     else if (keys.d.pressed && lastKey === 'd') {
         player.velocity.x = 1
     }
